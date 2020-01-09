@@ -1,0 +1,23 @@
+{
+    "AWSTemplateFormatVersion" : "2010-09-09",
+    "Description" : "trying to create sample arch",
+    "Resources": {
+        
+        "myVPC": {
+            "Description": "This is VPC",
+            "Type": "AWS::EC2::VPC",
+            "Properties": {
+                "CidrBlock" : "10.100.0.0/16",
+                "EnableDnsHostnames": true,
+                "Tags": [
+                    {
+                        "Key": "Name",
+                        "Value": "From CF"
+                    }
+                ]
+
+            }
+        }
+        
+    }
+}
