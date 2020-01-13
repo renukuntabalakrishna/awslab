@@ -7,7 +7,7 @@
             "Description": "This is VPC",
             "Type": "AWS::EC2::VPC",
             "Properties": {
-                "CidrBlock" : "10.100.0.0/16",
+                "CidrBlock" : "10.10.0.0/16",
                 "EnableDnsHostnames": true,
                 "Tags": [
                     {
